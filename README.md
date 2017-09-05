@@ -14,13 +14,13 @@ please choose installer type : deb(local)
 
 (2) Install CuDNN (download here: https://developer.nvidia.com/developer-program/signup)
 
-First, you need to sign up an account, after activated your account please download these two files based on your OS: cuDNN v5.1 Runtime Library for Ubuntu14.04 (Deb), 
-cuDNN v5.1 Developer Library for Ubuntu14.04 (Deb) 
-#### In this case Ubuntu 14.04 is also applicable to Ubuntu 16.04
+First, you need to sign up an account, after activated your account please go to Compute Works> Deep learning> Software > cuDNN Download  and download these two files based on your OS: cuDNN v7.0 Runtime Library for Ubuntu16.04 (Deb), 
+cuDNN v7.0 Developer Library for Ubuntu16.04 (Deb) 
 
-`sudo dpkg -i libcudnn5_5.1.5-1+cuda8.0_amd64.deb`
 
-`sudo dpkg -i libcudnn5-dev_5.1.5-1+cuda8.0_amd64.deb`
+`sudo dpkg -i libcudnn7_7.0.1.13-1+cuda9.0_amd64.deb`
+
+`sudo dpkg -i libcudnn7-dev_7.0.1.13-1+cuda9.0_amd64.deb`
 
 (3) Edit bashrc file
 
@@ -32,12 +32,14 @@ add following two lines to the file
 
 `export CUDA_HOME=/usr/local/cuda`
 
+save and exit file
+
 `source ~/.bashrc`
 
 (4) Install tensorflow-gpu
 
-Python2: `pip install tensorflow-gpu`
-Python3: `pip3 install tensorflow-gpu`
+Python2: `pip install --upgrade tensorflow-gpu`
+Python3: `pip3 install --upgrade tensorflow-gpu`
 
 (5) Testing
 
