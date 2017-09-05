@@ -43,4 +43,4 @@ Python3: `pip3 install tensorflow-gpu`
 
 python
 
-import TensorFlow as tf
+import tensorflow as tf
