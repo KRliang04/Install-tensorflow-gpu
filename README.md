@@ -26,19 +26,20 @@ cuDNN v7.0 Developer Library for Ubuntu16.04 (Deb)
 
 `sudo vi ~/.bashrc`
 
-add following two lines to the file
+Add following two lines to the file
 
 `export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"`
 
 `export CUDA_HOME=/usr/local/cuda`
 
-save and exit file
+Save and exit file
 
 `source ~/.bashrc`
 
 (4) Install tensorflow-gpu
 
 Python2: `pip install --upgrade tensorflow-gpu`
+
 Python3: `pip3 install --upgrade tensorflow-gpu`
 
 (5) Testing
