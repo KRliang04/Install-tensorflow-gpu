@@ -42,4 +42,5 @@ Python3: `pip3 install tensorflow-gpu`
 (5) Testing
 
 python
+
 import TensorFlow as tf
