@@ -14,8 +14,8 @@ please choose installer type : deb(local)
 
 (2) Install CuDNN (download here: https://developer.nvidia.com/developer-program/signup)
 
-First, you need to sign up an account, after activated your account please go to Compute Works> Deep learning> Software > cuDNN Download  and download these two files based on your OS: cuDNN v7.0 Runtime Library for Ubuntu16.04 (Deb), 
-cuDNN v7.0 Developer Library for Ubuntu16.04 (Deb) 
+First, you need to sign up an account, after activated your account please go to Compute Works> Deep learning> Software > cuDNN Download  
+Download these two files based on your OS: cuDNN v7.0 Runtime Library for Ubuntu16.04 (Deb), cuDNN v7.0 Developer Library for Ubuntu16.04 (Deb) 
 
 
 `sudo dpkg -i libcudnn7_7.0.1.13-1+cuda9.0_amd64.deb`
