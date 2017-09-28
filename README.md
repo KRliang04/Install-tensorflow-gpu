@@ -26,11 +26,13 @@ Download these two files based on your OS: cuDNN v7.0 Runtime Library for Ubuntu
 
 `sudo vi ~/.bashrc`
 
-Add following two lines to the file
+Add following three lines to the file
 
 `export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"`
 
 `export CUDA_HOME=/usr/local/cuda`
+
+`export PATH=$PATH:/usr/local/cuda/bin`
 
 Save and exit file
 
